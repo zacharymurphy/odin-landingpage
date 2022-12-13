@@ -4,8 +4,82 @@ body{
 
 .header{
     background-color: #1f2937;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
 }
 
 .text{
+    font-size: 24px;
     color: #f9faf8;
 }
+
+.button{
+    background-color: #3882F6;
+    color: #f9faf8; 
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    justify-items: center;
+    line-height: 45px;
+    border-radius: 10px;
+
+}
+
+.rightside{
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.leftside{
+    display: flex;
+    margin-left: 150px;
+}
+
+.herotext{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.heromain{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder ;
+}
+
+.middleblock{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    align-content: space-between;
+    gap: 20px;
+    width: 400px;
+
+
+}
+
+.entiremiddle{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    margin-bottom: 150px;
+    
+}
+.imageplace{
+    margin-right: 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+    height: 200px;
+    background-color: grey;
+    line-height: 200px;
+    color: #f9faf8;
+}
+
