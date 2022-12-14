@@ -28,7 +28,8 @@ body{
     justify-items: center;
     line-height: 45px;
     border-radius: 10px;
-
+    border: solid white;
+    margin: 15px;
 }
 
 .rightside{
@@ -87,9 +88,10 @@ body{
 }
 
 .secondblock{
+    
     background-color: white;
     margin: -5px;
-    margin-bottom: 100px;
+    
     margin-top: 100px;
     
     
@@ -101,5 +103,89 @@ body{
     color: #1f2937;
     text-align: center;
     padding: 50px;
+    
+}
+
+.box{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    
+    margin-bottom: -50px;
+    border: solid blue;
+    border-radius: 25px;
+   
+}
+
+.flex{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 75px;
+    
+}
+
+.thirdblock{
+    display: flex;
+    background-color: #E5E7EB;
+    margin: -5px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.thor{
+    color: #1f2937;
+    margin-left: 38%;
+    font-weight: 700;
+    padding: 15px;
+    font-size: 28px;
+}
+
+.fourthblock{
+    display: flex;
+    height: 300px;
+    margin: -5px;
+    background-color: white ;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.blueblock{
+    
+    width: 1000px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    align-self: center;
+    color: #f9faf8;
+    
+}
+
+.footer{
+    height: 75px;
+    margin: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
 }
 
